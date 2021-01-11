@@ -1,0 +1,8 @@
+body {
+    background: -webkit-linear-gradient(rgba(147, 147, 147, 0.7), rgba(147, 147, 147, 0.7)),url('/img/field.jpg') no-repeat center center fixed;
+    background: -moz-linear-gradient(rgba(147, 147, 147, 0.7), rgba(147, 147, 147, 0.7)),url('/img/field.jpg') no-repeat center center fixed;
+    background: -o-linear-gradient(rgba(147, 147, 147, 0.7), rgba(147, 147, 147, 0.7)),url('/img/field.jpg') no-repeat center center fixed;
+    background: linear-gradient(rgba(147, 147, 147, 0.7), rgba(147, 147, 147, 0.7)),url('/img/field.jpg') no-repeat center center fixed;
+    background-size: cover;
+    
+}

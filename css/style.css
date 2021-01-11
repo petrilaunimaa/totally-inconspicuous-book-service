@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600|Titillium+Web:200,600');
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    overflow-y: scroll;
+    background: #cdcdcd;
+}
+
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.middle {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paddy {
+    padding: 25px 55px 25px 55px;
+}
+
+.logoback {
+    min-height: 181px;
+    padding: 25px;
+    margin-bottom: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.1) 8%, rgba(0, 0, 0, 0.3) 92%, rgba(0, 0, 0, 0.4) 100%), url('/img/field.jpg');
+    background-size: cover;
+    background-position: center 75%;
+    margin: 0;
+}
+
+.logoback2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    max-height: 131px;
+    max-width: 181px;
+    opacity: 1;
+    animation: logoanimation 15s infinite;
+    margin: 0;
+}
+
+.logotext {
+    margin: 131px;
+    opacity: 0;
+    animation: logotextanimation 15s infinite;
+    margin: 0;
+    position: relative;
+    top: 36px;
+}
+
+@keyframes logoanimation {
+    0% {
+        opacity: 1;
+    }
+    9.375% {
+        opacity: 1;
+    }
+    15.625% {
+        opacity: 0;
+    }
+    59.375% {
+        opacity: 0;
+    }
+    71.875% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes logotextanimation {
+    0% {
+        opacity: 0;
+    }
+    9.375% {
+        opacity: 0;
+    }
+    15.625% {
+        opacity: 1;
+    }
+    59.375% {
+        opacity: 1;
+    }
+    71.875% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+button,
+.form-control {
+    margin-top: 5px;
+}
+
+.bg-nav {
+    background: #fdfdfd !important;
+}
+
+.picture {
+    width: 50px;
+    border-radius: 100%;
+}
+
+.register {
+    margin-left: 20px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+input[type="file"] {
+    height: 45px;
+}
+
+.navinputs {
+    margin-top: 0px;
+}
+
+.font-titillium {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.otsikko {
+    text-transform: uppercase;
+    font-weight: 200;
+    color: #FFF;
+    text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.8);
+}
+
+.jumbotron {
+    border-radius: 0 !important;
+}
+
+main {
+    padding: 0 !important;
+}
+
+main,
+.roundy {
+    max-width: 1500px;
+    border-radius: 0 0 25px 25px;
+}
+
+.bg-dark {
+    background: #2b3138 !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #cc19FF;
+}
+
+a,
+.navbar-dark {
+    color: #007bff;
+}
+
+.text-white a {
+    color: #FFF !important;
+}
+
+.text-primary {
+    color: #007bff;
+}
+
+.kirjahaku td:nth-child(even),
+.kirjahaku th:nth-child(even) {
+    background: #e9ecef;
+}
+
+.kirjahaku .card {
+    padding: 0;
+    width: 300px;
+}
+
+.kirjahaku a {
+    text-decoration: initial !important;
+}
+
+.kirjat {
+    margin: 5px;
+    line-height: 1;
+}
+
+@media (max-width:800px) {
+    .kirjat {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.bg-nav {
+    background: #f8f9fa !important;
+}
+
+.card-header {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 800;
+}
+
+.card-header:hover {
+    background: #f8f9fa;
+}
+
+.card a:hover {
+    text-decoration: none;
+}
+
+.card-img-right {
+    float: right;
+}
+
+.card-body:hover {
+    background: #fff;
+}
+
+.bookcover {
+    width: 240px;
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+.audioplayer {
+    width: 90%;
+    padding: 25px 0px 25px 0px;
+}
+
+footer {
+    padding: 55px 0px 25px 0px;
+}
+
+.navinputs {
+    margin: 0px 5px 0px 5px;
+}
+
+.navback {
+    background: #f8f9fa;
+    width: 100%;
+}
+
+.navbar {
+    max-width: 1500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width:575px) {
+    .sidelist {
+        text-align: center
+    }
+    .sidelist .listdivider,
+    .sidelist .listdivider-full {
+        width: 100%;
+    }
+}
+
+@media (max-width:700px) {
+    .bookcover {
+        width: 100%;
+    }
+}
+
+.listdivider {
+    width: 50%;
+    border-top: 1px solid #dcdcdc;
+}
+
+.listdivider-full {
+    width: 75%;
+    border-top: 1px solid #dcdcdc;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+.listdivider-full-b {
+    width: 75%;
+    border-bottom: 1px solid #dcdcdc;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.listdivider-full-b2 {
+    width: 100%;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.listhzdivider {
+    border-left: 1px solid #dcdcdc;
+}
+
+.sidelist {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.show992 {
+    display: none;
+}
+
+.hide992 {
+    display: block;
+}
+
+@media (max-width:992px) {
+    .hide992 {
+        display: none;
+    }
+    .show992 {
+        display: block;
+    }
+    .navinputs {
+        margin: 2px;
+        width: 100%!important;
+    }
+    .kirjahaku .card {
+        max-width: 100%;
+    }
+    .kirjahaku {
+        margin: 5px 0px 5px 0px;
+    }
+    .listhzdivider {
+        height: 1px;
+        border-left: none;
+        border-top: 1px solid #dcdcdc;
+    }
+    .listdivider-full {
+        width: 100%;
+        border-top: 1px solid #dcdcdc;
+        padding-bottom: 10px;
+    }
+    .test1 {
+        margin-left: 50%;
+        margin-top: 20%;
+    }
+    .logo {
+        animation: none;
+    }
+    .logotext {
+        animation: none;
+        display: none;
+    }
+}
+
+.product {
+    float: right;
+    padding: 15px;
+}
+
+.product-title {
+    font-size: 20px;
+    font-weight: 600;
+    word-break: break-word;
+    max-width: 315px;
+}
+
+.product-desc {
+    font-size: 14px;
+}
+
+.product-price {
+    font-size: 22px;
+}
+
+.product-stock {
+    color: #74DF00;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.product-info {
+    padding-top: 15px;
+}
+
+.service1-items {
+    padding: 0;
+    height: 321px;
+    width: 130px;
+    float: right;
+}
+
+.service1-item {
+    height: 107px;
+    width: 120px;
+    display: block;
+    float: left;
+    position: relative;
+    padding-right: 20px;
+}
+
+.service1-item>img {
+    max-height: 110px;
+    max-width: 110px;
+    opacity: 0.6;
+    transition: all .2s ease-in;
+}
+
+.service1-item>img:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.service-image-left {
+    padding-right: 25px;
+}
+
+
+/* tuotesivun asettelu alkaa */
+
+.gallery-wrap .img-big-wrap img {
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+}
+
+.gallery-wrap .img-small-wrap .item-gallery {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ddd;
+    margin: 7px 2px;
+    display: inline-block;
+}
+
+.gallery-wrap .img-small-wrap {
+    text-align: center;
+}
+
+.gallery-wrap .img-small-wrap img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.tuoteinfo {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.tuoteotsikko {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+
+.laitevalinta {
+    font-weight: bold;
+}
+
+
+/* tuotesivun asettelu päättyy */
+
+.nolist {
+    list-style: none;
+}
+
+.ostoskori-bookcover {
+    height: 100px;
+}
+
+.form-inline {
+    margin-bottom: 0;
+}
+
+.bookprev {
+    margin-bottom: 25px;
+    display: block;
+    display: inline-block;
+}
